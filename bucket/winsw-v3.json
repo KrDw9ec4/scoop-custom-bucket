@@ -1,0 +1,31 @@
+{
+    "version": "3.0.0-alpha.11",
+    "description": "",
+    "homepage": "https://github.com/winsw/winsw",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x64.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x86.exe"
+        }
+    },
+    "pre_install": "Move-Item -Path \"$dir\\WinSW*.exe\" -Destination \"$dir\\winsw-v3.exe\"",
+    "bin": "winsw-v3.exe",
+    "persist": "",
+    "checkver": {
+        "url": "https://github.com/winsw/winsw/releases.atom",
+        "regex": "(\\d+\\.\\d+\\.\\d+-(?:alpha)\\.\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/winsw/winsw/releases/download/v$verison/WinSW-x64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/winsw/winsw/releases/download/v$verison/WinSW-x86.exe"
+            }
+        }
+    }
+}

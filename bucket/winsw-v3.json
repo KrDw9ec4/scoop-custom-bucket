@@ -5,10 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x64.exe"
+            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x64.exe",
+            "hash": ""
         },
         "32bit": {
-            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x86.exe"
+            "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x86.exe",
+            "hash": ""
         }
     },
     "pre_install": "Move-Item -Path \"$dir\\WinSW*.exe\" -Destination \"$dir\\winsw-v3.exe\"",

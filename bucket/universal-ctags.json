@@ -5,10 +5,12 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/v6.1.0/ctags-v6.1.0-x64.zip"
+            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/v6.1.0/ctags-v6.1.0-x64.zip",
+            "hash": ""
         },
         "32bit": {
-            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/v6.1.0/ctags-v6.1.0-x86.zip"
+            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/v6.1.0/ctags-v6.1.0-x86.zip",
+            "hash": ""
         }
     },
     "bin": [

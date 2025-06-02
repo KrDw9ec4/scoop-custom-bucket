@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x64.exe",
-            "hash": ""
+            "hash": "A2DAA6A33A9C2B791AE31D9092E7935C339D1E03E89BFB747618CE2F4E819E20"
         },
         "32bit": {
             "url": "https://github.com/winsw/winsw/releases/download/v3.0.0-alpha.11/WinSW-x86.exe",
-            "hash": ""
+            "hash": "3201432B44825B0DC763EB4052DC84B179314E2A338794C9F5F797E8FE2BB0FC"
         }
     },
     "pre_install": "Move-Item -Path \"$dir\\WinSW*.exe\" -Destination \"$dir\\winsw-v3.exe\"",

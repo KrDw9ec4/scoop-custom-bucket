@@ -15,7 +15,8 @@
         "verible-verilog-lint.exe"
     ],
     "checkver": {
-        "github": "https://github.com/chipsalliance/verible"
+        "url": "https://github.com/chipsalliance/verible/releases.atom",
+        "regex": "\\/releases\\/tag\\/v(\\d+\\.\\d+-\\d+-g[0-9a-f]+)"
     },
     "autoupdate": {
         "architecture": {

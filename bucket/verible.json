@@ -1,5 +1,5 @@
 {
-    "version": "0.0-3999-g93adb37c",
+    "version": "0.0-3997-gd6924079",
     "description": "Suite of SystemVerilog tools for parsing, linting, and formatting",
     "homepage": "https://chipsalliance.github.io/verible/",
     "license": "Apache-2.0",
@@ -22,7 +22,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chipsalliance/verible/releases/download/v$version/verible-v$version-win64.zip"
+                "url": "https://github.com/chipsalliance/verible/releases/download/v$version/verible-v$version-win64.zip",
+                "extract_dir": "verible-v$version-win64"
             }
         }
     }

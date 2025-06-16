@@ -1,13 +1,13 @@
 {
-    "version": "0.0-4003-gd42da6b9",
+    "version": "0.0-4007-g98bdb38a",
     "description": "Suite of SystemVerilog tools for parsing, linting, and formatting",
     "homepage": "https://chipsalliance.github.io/verible/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chipsalliance/verible/releases/download/v0.0-4003-gd42da6b9/verible-v0.0-4003-gd42da6b9-win64.zip",
-            "hash": "fb5d731b393e26380d9741163a0ceed48e6410251b99676846f899cb7133112f",
-            "extract_dir": "verible-v0.0-4003-gd42da6b9-win64"
+            "url": "https://github.com/chipsalliance/verible/releases/download/v0.0-4007-g98bdb38a/verible-v0.0-4007-g98bdb38a-win64.zip",
+            "hash": "155db7a8cf2a73f2c5ac69f72fc8ad4f2613b3dc4b80f1e1de2f8f13fe7e5095",
+            "extract_dir": "verible-v0.0-4007-g98bdb38a-win64"
         }
     },
     "bin": [

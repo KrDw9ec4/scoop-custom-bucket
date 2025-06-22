@@ -1,17 +1,17 @@
 {
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "Domain Availability Research Tool",
     "homepage": "https://github.com/brandonyoungdev/tldx",
     "license": "Apache-2.0",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brandonyoungdev/tldx/releases/download/v1.2.3/tldx_1.2.3_windows_amd64.zip",
-            "hash": "sha256:5afda72773339cd36054dbdb45744e1a3038cc280bf01fefcd47858028102fab"
+            "url": "https://github.com/brandonyoungdev/tldx/releases/download/v1.2.4/tldx_1.2.4_windows_amd64.zip",
+            "hash": "4b10f069d38e65f496553725ee2c7f51bd563d9665a555053fb37356b3a9b62e"
         },
         "arm64": {
-            "url": "https://github.com/brandonyoungdev/tldx/releases/download/v1.2.3/tldx_1.2.3_windows_arm64.zip",
-            "hash": "sha256:54e75052a065ca65af5841af64e5ab374feb76acd9e30637566bce2c757d1d08"
+            "url": "https://github.com/brandonyoungdev/tldx/releases/download/v1.2.4/tldx_1.2.4_windows_arm64.zip",
+            "hash": "1e48b83bc9886f63e8f0d45bd01b95d24d354368e578f48c4411c20c627dc278"
         }
     },
     "bin": "tldx.exe",

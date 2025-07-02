@@ -1,0 +1,33 @@
+{
+    "##": "Refer to https://github.com/ZhangTianrong/scoop-bucket/blob/master/bucket/baidupcs-go.json",
+    "version": "3.9.7",
+    "description": "iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能",
+    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "license": "Apache-2.0",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x64.zip",
+            "hash": "2C8F4728AC29153F71187A26C85D5BE0E2419A64D591A74F821D3C57622EEB81",
+            "extract_dir": "BaiduPCS-Go-v3.9.7-windows-x64"
+        }
+    },
+    "bin": "BaiduPCS-Go.exe",
+    "env_set": {
+        "BAIDUPCS_GO_CONFIG_DIR": "$dir\\config"
+    },
+    "persist": [
+        "config"
+    ],
+    "checkver": {
+        "github": "https://github.com/qjfoidnh/BaiduPCS-Go"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x64.zip",
+                "extract_dir": "BaiduPCS-Go-v$version-windows-x64"
+            }
+        }
+    }
+}
